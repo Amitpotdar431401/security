@@ -50,4 +50,7 @@ firewall-cmd --zone=public --list-all
 # Add a port (e.g., 2020/tcp) to the public zone
 firewall-cmd --zone=public --add-port=2020/tcp --permanent
 firewall-cmd --reload
+
+
+
 firewall-cmd --zone=public --list-all
